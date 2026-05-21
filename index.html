@@ -17,6 +17,328 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- TODO: Add Product offers with price and availability only when real product data is available on the page. -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "OnlineStore",
+                    "@id": "https://vapesprime.pl/#organization",
+                    "name": "VapesPrime",
+                    "alternateName": "Prime Vapes Polska",
+                    "url": "https://vapesprime.pl/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://vapesprime.pl/favicon-96x96.png",
+                        "width": 96,
+                        "height": 96
+                    },
+                    "email": "info@dbucha.com",
+                    "telephone": "+48573581194",
+                    "contactPoint": [
+                        {
+                            "@type": "ContactPoint",
+                            "contactType": "customer support",
+                            "email": "info@dbucha.com",
+                            "telephone": "+48573581194",
+                            "areaServed": "PL",
+                            "availableLanguage": "pl-PL"
+                        }
+                    ],
+                    "areaServed": {
+                        "@type": "Country",
+                        "name": "Polska"
+                    },
+                    "availableLanguage": "pl-PL"
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://vapesprime.pl/#website",
+                    "name": "VapesPrime",
+                    "url": "https://vapesprime.pl/",
+                    "publisher": {
+                        "@id": "https://vapesprime.pl/#organization"
+                    },
+                    "inLanguage": "pl-PL",
+                    "about": [
+                        "jednorazówki",
+                        "e papierosy jednorazowe",
+                        "e-liquid",
+                        "akcesoria do wapowania"
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https://vapesprime.pl/#breadcrumbs",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https://vapesprime.pl/"
+                        }
+                    ]
+                },
+                {
+                    "@type": [
+                        "CollectionPage",
+                        "WebPage"
+                    ],
+                    "@id": "https://vapesprime.pl/#webpage",
+                    "url": "https://vapesprime.pl/",
+                    "name": "Jednorazówki i e papierosy jednorazowe - VapesPrime",
+                    "description": "Strona VapesPrime prezentuje jednorazówki, e papierosy jednorazowe, e-liquid, zestawy i akcesoria do wapowania dostępne w sklepie.",
+                    "isPartOf": {
+                        "@id": "https://vapesprime.pl/#website"
+                    },
+                    "breadcrumb": {
+                        "@id": "https://vapesprime.pl/#breadcrumbs"
+                    },
+                    "publisher": {
+                        "@id": "https://vapesprime.pl/#organization"
+                    },
+                    "inLanguage": "pl-PL",
+                    "mainEntity": {
+                        "@id": "https://vapesprime.pl/#visible-products"
+                    }
+                },
+                {
+                    "@type": "ItemList",
+                    "@id": "https://vapesprime.pl/#visible-products",
+                    "name": "Widoczne produkty VapesPrime",
+                    "description": "Lista produktów typu e papieros jednorazowy widocznych na stronie głównej VapesPrime.",
+                    "numberOfItems": 14,
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy JNR Triple 110K",
+                                "description": "JNR Triple 110K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 110000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/new/JNR-Triple-110K-Polska-Jednorazowki-E-papieros-Summer-Peaches-Strawberry-Ice-Watermelon-Ice-110000-Buchow.png",
+                                "url": "https://www.dbucha.com/products/jednorazowki-jnr-triple-110k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Jnr Falcon Bar 48K",
+                                "description": "Jnr Falcon Bar 48K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 48000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/new/Jnr-E-papieros-Falcon-Bar-jednorazówki-48K-48000-buchów.png",
+                                "url": "https://www.dbucha.com/products/jednorazowki-jnr-falcon-bar-48k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 3,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Adalya AD-PRO360",
+                                "description": "Adalya AD-PRO360 to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 20000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/new/Adalya-AD-PRO360-E-papieros-jednorazówki-20K-20000-buchów.png",
+                                "url": "https://www.dbucha.com/products/jednorazowki-adalya-adl-pro360-20k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Adalya"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 4,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy MerryMi Panda X",
+                                "description": "MerryMi Panda X to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 40000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/new/MerryMi-Panda-X-E-papieros-jednorazówki-40K-40000-buchów.png",
+                                "url": "https://www.dbucha.com/products/jednorazowki-merrymi-panda-x-40k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 5,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy MerryMi M-Mecha 16K",
+                                "description": "MerryMi M-Mecha 16K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 16000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/MerryMi-M-Mecha-E-papieros-jednorazówki-16K-16000-buchów.png",
+                                "url": "https://www.dbucha.com/products/merrymi-m-mecha-16k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 6,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy JNR Megabox Pro 50K",
+                                "description": "JNR Megabox Pro 50K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 50000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/Jnr-E-papieros-Mega-Box-Pro-jednorazówki-50K-50000-buchów.png",
+                                "url": "https://www.dbucha.com/products/jednorazowki-jnr-megabox-pro-50k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "JNR"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 7,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy MerryMi Blade 30K",
+                                "description": "MerryMi Blade 30K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 30000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/MerryMi-Blade-E-papieros-jednorazówki-30K-30000-buchów.png",
+                                "url": "https://www.dbucha.com/products/merrymi-blade-30k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 8,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Al Fakher Hypermax 15K",
+                                "description": "Al Fakher Hypermax 15K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 15000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/Al-Fakher-Crown-Bar-HyperMax-E-papieros-jednorazówki-15K-15000-buchów.png",
+                                "url": "https://www.dbucha.com/products/al-fakher-hypermax-15k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Al Fakher"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 9,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Fumot Leopard 40K",
+                                "description": "Fumot Leopard 40K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 40000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/Fumot_Leopard_40K_Polska_Jednorazówki_E_papieros_Black_Dragon_Ice.png",
+                                "url": "https://www.dbucha.com/products/fumot-leopard-40k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 10,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Fumot Tornado 15K",
+                                "description": "Fumot Tornado 15K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 15000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/Fumot-Tornado-15K-Polska-Jednorazówki-E%20papieros-Grape%20Ice-15000%20Buchów.png",
+                                "url": "https://www.dbucha.com/products/fumot-tornado-15k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Fumot"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 11,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Blur 30K",
+                                "description": "Blur 30K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 30000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/Blur-30000-E-papieros-jednorazówki-30K-buchów.png",
+                                "url": "https://www.dbucha.com/products/blur-30000-30k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Blur"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 12,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Hayati Pro Max 4K",
+                                "description": "Hayati Pro Max 4K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 4000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/Hayati-Pro-Max-Vape-E-papieros-jednorazówki-4K-4000-buchów.png",
+                                "url": "https://www.dbucha.com/products/hayati-pro-max-4k-4000-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Hayati"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 13,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy Ghost Smart Vape 40K",
+                                "description": "Ghost Smart Vape 40K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 40000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/Ghost-Smart-Vape-E-papieros-jednorazówki-40K-40000-buchów.png",
+                                "url": "https://www.dbucha.com/products/ghost-smart-vape-40k-40000-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "Ghost"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 14,
+                            "item": {
+                                "@type": "Product",
+                                "name": "E papieros jednorazowy MerryMi WiFlux 24K",
+                                "description": "MerryMi WiFlux 24K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 24000 buchów.",
+                                "image": "https://vapesprime.pl/images/product/MerryMi-WiFlux-E-papieros-jednorazówki-24K-24000-buchów.png",
+                                "url": "https://www.dbucha.com/products/merrymi-wiflux-24k-buchow",
+                                "brand": {
+                                    "@type": "Brand",
+                                    "name": "MerryMi"
+                                },
+                                "category": "E papierosy jednorazowe"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    </script>
 </head>
 
 <body>
