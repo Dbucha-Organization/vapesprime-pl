@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VapesPrime - Najlepsze e-papierosy i jednorazówki</title>
-    <meta name="keywords" content="e-papierosy, jednorazówki, e-liquid, zestawy, akcesoria do wapowania">
     <meta name="description"
         content="Najlepsze e-papierosy jednorazowe, najtańsze i najlepsze ceny. Darmowa dostawa, wyprzedaż i nowości tylko u nas using keywords: czysty, buchów, jednorazówka.">
+    <link rel="canonical" href="https://vapesprime.pl/">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:title" content="VapesPrime - Najlepsze e-papierosy i jednorazówki">
+    <meta property="og:description"
+        content="Najlepsze e-papierosy jednorazowe, najtańsze i najlepsze ceny. Darmowa dostawa, wyprzedaż i nowości tylko u nas using keywords: czysty, buchów, jednorazówka.">
+    <meta property="og:image" content="https://vapesprime.pl/images/Jednorazówki-polska-buchów-e-papieros-vapes.png">
+    <meta property="og:url" content="https://vapesprime.pl/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VapesPrime - Najlepsze e-papierosy i jednorazówki">
+    <meta name="twitter:description"
+        content="Najlepsze e-papierosy jednorazowe, najtańsze i najlepsze ceny. Darmowa dostawa, wyprzedaż i nowości tylko u nas using keywords: czysty, buchów, jednorazówka.">
+    <meta name="twitter:image" content="https://vapesprime.pl/images/Jednorazówki-polska-buchów-e-papieros-vapes.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
@@ -17,35 +30,26 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- TODO: Add Product offers with price and availability only when real product data is available on the page. -->
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@graph": [
                 {
-                    "@type": "OnlineStore",
+                    "@type": "Organization",
                     "@id": "https://vapesprime.pl/#organization",
                     "name": "VapesPrime",
-                    "alternateName": "Prime Vapes Polska",
+                    "description": "VapesPrime to polska strona informacyjna prezentująca wybrane modele, kolekcje oraz linki prowadzące do DBUCHA.com.",
                     "url": "https://vapesprime.pl/",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://vapesprime.pl/favicon-96x96.png",
-                        "width": 96,
-                        "height": 96
+                    "logo": "https://vapesprime.pl/favicon-96x96.png",
+                    "image": "https://vapesprime.pl/favicon-96x96.png",
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "contactType": "customer support via DBUCHA.com",
+                        "telephone": "+48573581194",
+                        "email": "info@dbucha.com",
+                        "areaServed": "PL",
+                        "availableLanguage": "pl-PL"
                     },
-                    "email": "info@dbucha.com",
-                    "telephone": "+48573581194",
-                    "contactPoint": [
-                        {
-                            "@type": "ContactPoint",
-                            "contactType": "customer support",
-                            "email": "info@dbucha.com",
-                            "telephone": "+48573581194",
-                            "areaServed": "PL",
-                            "availableLanguage": "pl-PL"
-                        }
-                    ],
                     "areaServed": {
                         "@type": "Country",
                         "name": "Polska"
@@ -60,281 +64,184 @@
                     "publisher": {
                         "@id": "https://vapesprime.pl/#organization"
                     },
-                    "inLanguage": "pl-PL",
-                    "about": [
-                        "jednorazówki",
-                        "e papierosy jednorazowe",
-                        "e-liquid",
-                        "akcesoria do wapowania"
-                    ]
+                    "inLanguage": "pl-PL"
                 },
                 {
                     "@type": "BreadcrumbList",
-                    "@id": "https://vapesprime.pl/#breadcrumbs",
+                    "@id": "https://vapesprime.pl/#breadcrumb",
                     "itemListElement": [
                         {
                             "@type": "ListItem",
                             "position": 1,
-                            "name": "Home",
+                            "name": "Strona Główna",
                             "item": "https://vapesprime.pl/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "MerryMi",
+                            "item": "https://www.dbucha.com/collections/merrymi-jednorazowki"
                         }
                     ]
                 },
                 {
-                    "@type": [
-                        "CollectionPage",
-                        "WebPage"
-                    ],
-                    "@id": "https://vapesprime.pl/#webpage",
+                    "@type": "CollectionPage",
+                    "@id": "https://vapesprime.pl/#collection",
+                    "name": "NAJLEPSZE JEDNORAZÓWKI",
+                    "description": "Najlepsze e-papierosy jednorazowe, najtańsze i najlepsze ceny. Darmowa dostawa, wyprzedaż i nowości tylko u nas using keywords: czysty, buchów, jednorazówka.",
                     "url": "https://vapesprime.pl/",
-                    "name": "Jednorazówki i e papierosy jednorazowe - VapesPrime",
-                    "description": "Strona VapesPrime prezentuje jednorazówki, e papierosy jednorazowe, e-liquid, zestawy i akcesoria do wapowania dostępne w sklepie.",
                     "isPartOf": {
                         "@id": "https://vapesprime.pl/#website"
                     },
-                    "breadcrumb": {
-                        "@id": "https://vapesprime.pl/#breadcrumbs"
-                    },
-                    "publisher": {
+                    "about": {
                         "@id": "https://vapesprime.pl/#organization"
                     },
-                    "inLanguage": "pl-PL",
+                    "breadcrumb": {
+                        "@id": "https://vapesprime.pl/#breadcrumb"
+                    },
                     "mainEntity": {
-                        "@id": "https://vapesprime.pl/#visible-products"
-                    }
+                        "@id": "https://vapesprime.pl/#itemlist"
+                    },
+                    "inLanguage": "pl-PL"
                 },
                 {
                     "@type": "ItemList",
-                    "@id": "https://vapesprime.pl/#visible-products",
-                    "name": "Widoczne produkty VapesPrime",
-                    "description": "Lista produktów typu e papieros jednorazowy widocznych na stronie głównej VapesPrime.",
+                    "@id": "https://vapesprime.pl/#itemlist",
+                    "name": "Lista modeli prezentowanych na stronie",
                     "numberOfItems": 14,
                     "itemListElement": [
                         {
                             "@type": "ListItem",
                             "position": 1,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy JNR Triple 110K",
-                                "description": "JNR Triple 110K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 110000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/new/JNR-Triple-110K-Polska-Jednorazowki-E-papieros-Summer-Peaches-Strawberry-Ice-Watermelon-Ice-110000-Buchow.png",
-                                "url": "https://www.dbucha.com/products/jednorazowki-jnr-triple-110k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "JNR"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "JNR Triple 110K",
+                            "url": "https://www.dbucha.com/products/jednorazowki-jnr-triple-110k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 2,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy Jnr Falcon Bar 48K",
-                                "description": "Jnr Falcon Bar 48K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 48000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/new/Jnr-E-papieros-Falcon-Bar-jednorazówki-48K-48000-buchów.png",
-                                "url": "https://www.dbucha.com/products/jednorazowki-jnr-falcon-bar-48k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "JNR"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "Jnr Falcon Bar 48K",
+                            "url": "https://www.dbucha.com/products/jednorazowki-jnr-falcon-bar-48k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 3,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy Adalya AD-PRO360",
-                                "description": "Adalya AD-PRO360 to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 20000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/new/Adalya-AD-PRO360-E-papieros-jednorazówki-20K-20000-buchów.png",
-                                "url": "https://www.dbucha.com/products/jednorazowki-adalya-adl-pro360-20k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Adalya"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "Adalya AD-PRO360",
+                            "url": "https://www.dbucha.com/products/jednorazowki-adalya-adl-pro360-20k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 4,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy MerryMi Panda X",
-                                "description": "MerryMi Panda X to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 40000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/new/MerryMi-Panda-X-E-papieros-jednorazówki-40K-40000-buchów.png",
-                                "url": "https://www.dbucha.com/products/jednorazowki-merrymi-panda-x-40k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "MerryMi"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "MerryMi Panda X",
+                            "url": "https://www.dbucha.com/products/jednorazowki-merrymi-panda-x-40k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 5,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy MerryMi M-Mecha 16K",
-                                "description": "MerryMi M-Mecha 16K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 16000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/MerryMi-M-Mecha-E-papieros-jednorazówki-16K-16000-buchów.png",
-                                "url": "https://www.dbucha.com/products/merrymi-m-mecha-16k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "MerryMi"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "MerryMi M-Mecha 16K",
+                            "url": "https://www.dbucha.com/products/merrymi-m-mecha-16k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 6,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy JNR Megabox Pro 50K",
-                                "description": "JNR Megabox Pro 50K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 50000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/Jnr-E-papieros-Mega-Box-Pro-jednorazówki-50K-50000-buchów.png",
-                                "url": "https://www.dbucha.com/products/jednorazowki-jnr-megabox-pro-50k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "JNR"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "JNR Megabox Pro 50K",
+                            "url": "https://www.dbucha.com/products/jednorazowki-jnr-megabox-pro-50k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 7,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy MerryMi Blade 30K",
-                                "description": "MerryMi Blade 30K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 30000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/MerryMi-Blade-E-papieros-jednorazówki-30K-30000-buchów.png",
-                                "url": "https://www.dbucha.com/products/merrymi-blade-30k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "MerryMi"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "MerryMi Blade 30K",
+                            "url": "https://www.dbucha.com/products/merrymi-blade-30k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 8,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy Al Fakher Hypermax 15K",
-                                "description": "Al Fakher Hypermax 15K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 15000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/Al-Fakher-Crown-Bar-HyperMax-E-papieros-jednorazówki-15K-15000-buchów.png",
-                                "url": "https://www.dbucha.com/products/al-fakher-hypermax-15k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Al Fakher"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "Al Fakher Hypermax 15K",
+                            "url": "https://www.dbucha.com/products/al-fakher-hypermax-15k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 9,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy Fumot Leopard 40K",
-                                "description": "Fumot Leopard 40K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 40000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/Fumot_Leopard_40K_Polska_Jednorazówki_E_papieros_Black_Dragon_Ice.png",
-                                "url": "https://www.dbucha.com/products/fumot-leopard-40k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Fumot"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "Fumot Leopard 40K",
+                            "url": "https://www.dbucha.com/products/fumot-leopard-40k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 10,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy Fumot Tornado 15K",
-                                "description": "Fumot Tornado 15K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 15000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/Fumot-Tornado-15K-Polska-Jednorazówki-E%20papieros-Grape%20Ice-15000%20Buchów.png",
-                                "url": "https://www.dbucha.com/products/fumot-tornado-15k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Fumot"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "Fumot Tornado 15K",
+                            "url": "https://www.dbucha.com/products/fumot-tornado-15k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 11,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy Blur 30K",
-                                "description": "Blur 30K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 30000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/Blur-30000-E-papieros-jednorazówki-30K-buchów.png",
-                                "url": "https://www.dbucha.com/products/blur-30000-30k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Blur"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "Blur 30K",
+                            "url": "https://www.dbucha.com/products/blur-30000-30k-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 12,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy Hayati Pro Max 4K",
-                                "description": "Hayati Pro Max 4K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 4000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/Hayati-Pro-Max-Vape-E-papieros-jednorazówki-4K-4000-buchów.png",
-                                "url": "https://www.dbucha.com/products/hayati-pro-max-4k-4000-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Hayati"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "Hayati Pro Max 4K",
+                            "url": "https://www.dbucha.com/products/hayati-pro-max-4k-4000-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 13,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy Ghost Smart Vape 40K",
-                                "description": "Ghost Smart Vape 40K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 40000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/Ghost-Smart-Vape-E-papieros-jednorazówki-40K-40000-buchów.png",
-                                "url": "https://www.dbucha.com/products/ghost-smart-vape-40k-40000-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "Ghost"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "Ghost Smart Vape 40K",
+                            "url": "https://www.dbucha.com/products/ghost-smart-vape-40k-40000-buchow"
                         },
                         {
                             "@type": "ListItem",
                             "position": 14,
-                            "item": {
-                                "@type": "Product",
-                                "name": "E papieros jednorazowy MerryMi WiFlux 24K",
-                                "description": "MerryMi WiFlux 24K to e papieros jednorazowy widoczny w ofercie VapesPrime; karta produktu podaje 24000 buchów.",
-                                "image": "https://vapesprime.pl/images/product/MerryMi-WiFlux-E-papieros-jednorazówki-24K-24000-buchów.png",
-                                "url": "https://www.dbucha.com/products/merrymi-wiflux-24k-buchow",
-                                "brand": {
-                                    "@type": "Brand",
-                                    "name": "MerryMi"
-                                },
-                                "category": "E papierosy jednorazowe"
-                            }
+                            "name": "MerryMi WiFlux 24K",
+                            "url": "https://www.dbucha.com/products/merrymi-wiflux-24k-buchow"
                         }
                     ]
+                },
+                {
+                    "@type": "FAQPage",
+                    "@id": "https://vapesprime.pl/#faq",
+                    "mainEntity": [
+                        {
+                            "@type": "Question",
+                            "name": "Czym jest ta strona?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "VapesPrime - Najlepsze e-papierosy i jednorazówki to polska strona informacyjna prezentująca wybrane modele, kolekcje oraz linki prowadzące do DBUCHA.com."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Czy ta strona jest sklepem internetowym?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Nie. Ta strona nie ma własnego checkoutu. Przyciski i linki prowadzą do DBUCHA.com, gdzie można sprawdzić produkty."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Jakie modele lub kolekcje są prezentowane?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Na stronie widoczne są między innymi JNR Triple 110K, Jnr Falcon Bar 48K, Adalya AD-PRO360, MerryMi Panda X, MerryMi M-Mecha 16K, JNR Megabox Pro 50K, MerryMi Blade 30K, Al Fakher Hypermax 15K, Fumot Leopard 40K, Fumot Tornado 15K, Blur 30K, Hayati Pro Max 4K, Ghost Smart Vape 40K i MerryMi WiFlux 24K."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Gdzie można sprawdzić produkty?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Produkty można sprawdzić po kliknięciu przycisków i linków prowadzących do DBUCHA.com, w tym do widocznych kart produktów oraz kolekcji marek."
+                            }
+                        },
+                        {
+                            "@type": "Question",
+                            "name": "Dla kogo przeznaczone są treści na stronie?",
+                            "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Treści są przeznaczone wyłącznie dla osób pełnoletnich. Strona zawiera ostrzeżenie, że produkt zawiera nikotynę, a nikotyna jest substancją uzależniającą."
+                            }
+                        }
+                    ],
+                    "inLanguage": "pl-PL"
                 }
             ]
         }
@@ -358,9 +265,9 @@
         <header class="main-header">
             <div class="container flex-between header-content">
                 <!-- Logo -->
-                <a href="https://www.dbucha.com/" class="logo">
+                <a href="https://www.dbucha.com/" class="logo" target="_blank" rel="noopener noreferrer">
                     <div class="logo-text">
-                        <img src="favicon-96x96.png" alt="VapesPrime logo - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                        <img src="favicon-96x96.png" alt="VapesPrime logo - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     </div>
                 </a>
 
@@ -378,7 +285,7 @@
 
                 <!-- User Actions -->
                 <div class="user-actions">
-                    <a href="https://www.dbucha.com/" class="action-item">
+                    <a href="https://www.dbucha.com/" class="action-item" target="_blank" rel="noopener noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
@@ -386,7 +293,7 @@
                         </svg>
                         <span>Zaloguj</span>
                     </a>
-                    <a href="https://www.dbucha.com/" class="action-item">
+                    <a href="https://www.dbucha.com/" class="action-item" target="_blank" rel="noopener noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
@@ -408,14 +315,14 @@
         <nav class="main-nav">
             <div class="container">
                 <ul class="nav-list">
-                    <li><a href="https://www.dbucha.com/" class="nav-link active">Nowości</a></li>
-                    <li><a href="https://www.dbucha.com/" class="nav-link">Jednorazówki</a></li>
-                    <li><a href="https://www.dbucha.com/" class="nav-link">E-Liquid</a></li>
-                    <li><a href="https://www.dbucha.com/" class="nav-link">Zestawy</a></li>
-                    <li><a href="https://www.dbucha.com/" class="nav-link">Top kolekcje</a></li>
-                    <li><a href="https://www.dbucha.com/" class="nav-link highlight">Promocje</a></li>
-                    <li><a href="https://www.dbucha.com/" class="nav-link">Blog</a></li>
-                    <li><a href="https://www.dbucha.com/" class="nav-link btn-clearance">Wyprzedaż</a></li>
+                    <li><a href="https://www.dbucha.com/" class="nav-link active" target="_blank" rel="noopener noreferrer">Nowości</a></li>
+                    <li><a href="https://www.dbucha.com/" class="nav-link" target="_blank" rel="noopener noreferrer">Jednorazówki</a></li>
+                    <li><a href="https://www.dbucha.com/" class="nav-link" target="_blank" rel="noopener noreferrer">E-Liquid</a></li>
+                    <li><a href="https://www.dbucha.com/" class="nav-link" target="_blank" rel="noopener noreferrer">Zestawy</a></li>
+                    <li><a href="https://www.dbucha.com/" class="nav-link" target="_blank" rel="noopener noreferrer">Top kolekcje</a></li>
+                    <li><a href="https://www.dbucha.com/" class="nav-link highlight" target="_blank" rel="noopener noreferrer">Promocje</a></li>
+                    <li><a href="https://www.dbucha.com/" class="nav-link" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                    <li><a href="https://www.dbucha.com/" class="nav-link btn-clearance" target="_blank" rel="noopener noreferrer">Wyprzedaż</a></li>
                 </ul>
             </div>
         </nav>
@@ -429,14 +336,14 @@
             <button class="close-menu">&times;</button>
         </div>
         <ul class="mobile-nav-list">
-            <li><a href="https://www.dbucha.com/">Nowości</a></li>
-            <li><a href="https://www.dbucha.com/">Jednorazówki</a></li>
-            <li><a href="https://www.dbucha.com/">E-Liquid</a></li>
-            <li><a href="https://www.dbucha.com/">Zestawy</a></li>
-            <li><a href="https://www.dbucha.com/">Top kolekcje</a></li>
-            <li><a href="https://www.dbucha.com/">Promocje</a></li>
-            <li><a href="https://www.dbucha.com/">Blog</a></li>
-            <li><a href="https://www.dbucha.com/">Wyprzedaż</a></li>
+            <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Nowości</a></li>
+            <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Jednorazówki</a></li>
+            <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">E-Liquid</a></li>
+            <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Zestawy</a></li>
+            <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Top kolekcje</a></li>
+            <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Promocje</a></li>
+            <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+            <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Wyprzedaż</a></li>
         </ul>
     </div>
 
@@ -454,12 +361,12 @@
                     <h1 class="hero-title">NAJLEPSZE JEDNORAZÓWKI</h1>
                     <h2 class="hero-subtitle">E PAPIEROSY SKLEP</h2>
                     <p>Darmowa Dostawa</p>
-                    <a href="https://www.dbucha.com/" class="btn btn-primary btn-large">KUP TERAZ</a>
+                    <a href="https://www.dbucha.com/" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">KUP TERAZ</a>
                 </div>
                 <!-- Background image represented by CSS or img tag -->
                 <div class="hero-image-placeholder">
                     <img src="images/Jednorazówki-polska-buchów-e-papieros-vapes.png" alt="Hero Banner Vapes - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep"
-                        class="img-responsive">
+                        class="img-responsive" decoding="async">
                 </div>
             </div>
         </section>
@@ -476,14 +383,14 @@
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/product/new/JNR-Triple-110K-Polska-Jednorazowki-E-papieros-Summer-Peaches-Strawberry-Ice-Watermelon-Ice-110000-Buchow.png"
-                            alt="JNR Triple 110K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                            alt="JNR Triple 110K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     </div>
                     <div class="product-info">
                         <p class="puff-count">110000 Buchów</p>
-                        <h1 class="product-title">JNR Triple 110K</h1>
+                        <h2 class="product-title">JNR Triple 110K</h2>
                         <p class="product-type">jednorazówki e-papieros</p>
                         <a href="https://www.dbucha.com/products/jednorazowki-jnr-triple-110k-buchow"
-                            class="btn btn-cta">Kup teraz</a>
+                            class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup teraz</a>
                     </div>
                 </div>
 
@@ -491,14 +398,14 @@
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/product/new/Jnr-E-papieros-Falcon-Bar-jednorazówki-48K-48000-buchów.png"
-                            alt="Jnr Falcon Bar 48K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                            alt="Jnr Falcon Bar 48K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     </div>
                     <div class="product-info">
                         <p class="puff-count">48000 buchów</p>
-                        <h1 class="product-title">Jnr Falcon Bar 48K</h1>
+                        <h2 class="product-title">Jnr Falcon Bar 48K</h2>
                         <p class="product-type">jednorazówki e-papieros</p>
                         <a href="https://www.dbucha.com/products/jednorazowki-jnr-falcon-bar-48k-buchow"
-                            class="btn btn-cta">Kup teraz</a>
+                            class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup teraz</a>
                     </div>
                 </div>
 
@@ -506,14 +413,14 @@
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/product/new/Adalya-AD-PRO360-E-papieros-jednorazówki-20K-20000-buchów.png"
-                            alt="Adalya AD-PRO360 - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                            alt="Adalya AD-PRO360 - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     </div>
                     <div class="product-info">
                         <p class="puff-count">20000 buchów</p>
-                        <h1 class="product-title">Adalya AD-PRO360</h1>
+                        <h2 class="product-title">Adalya AD-PRO360</h2>
                         <p class="product-type">jednorazówki e-papieros</p>
                         <a href="https://www.dbucha.com/products/jednorazowki-adalya-adl-pro360-20k-buchow"
-                            class="btn btn-cta">Kup teraz</a>
+                            class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup teraz</a>
                     </div>
                 </div>
 
@@ -521,14 +428,14 @@
                 <div class="product-card">
                     <div class="product-image">
                         <img src="images/product/new/MerryMi-Panda-X-E-papieros-jednorazówki-40K-40000-buchów.png"
-                            alt="MerryMi Panda X - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                            alt="MerryMi Panda X - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     </div>
                     <div class="product-info">
                         <p class="puff-count">40000 buchów</p>
-                        <h1 class="product-title">MerryMi Panda X</h1>
+                        <h2 class="product-title">MerryMi Panda X</h2>
                         <p class="product-type">jednorazówki e-papieros</p>
                         <a href="https://www.dbucha.com/products/jednorazowki-merrymi-panda-x-40k-buchow"
-                            class="btn btn-cta">Kup teraz</a>
+                            class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup teraz</a>
                     </div>
                 </div>
             </div>
@@ -562,67 +469,67 @@
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/MerryMi-M-Mecha-E-papieros-jednorazówki-16K-16000-buchów.png"
-                                alt="MerryMi M-Mecha 16K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="MerryMi M-Mecha 16K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">16000 Buchów</p>
-                            <h1 class="product-title">MerryMi M-Mecha 16K</h1>
+                            <h2 class="product-title">MerryMi M-Mecha 16K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
-                            <a href="https://www.dbucha.com/products/merrymi-m-mecha-16k-buchow" class="btn btn-cta">Kup
+                            <a href="https://www.dbucha.com/products/merrymi-m-mecha-16k-buchow" class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup
                                 teraz</a>
                         </div>
                     </div>
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/Jnr-E-papieros-Mega-Box-Pro-jednorazówki-50K-50000-buchów.png"
-                                alt="JNR Megabox Pro 50K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="JNR Megabox Pro 50K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">50000 Buchów</p>
-                            <h1 class="product-title">JNR Megabox Pro 50K</h1>
+                            <h2 class="product-title">JNR Megabox Pro 50K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
                             <a href="https://www.dbucha.com/products/jednorazowki-jnr-megabox-pro-50k-buchow"
-                                class="btn btn-cta">Kup teraz</a>
+                                class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup teraz</a>
                         </div>
                     </div>
                     <!-- Product 9: MerryMi Blade 30K -->
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/MerryMi-Blade-E-papieros-jednorazówki-30K-30000-buchów.png"
-                                alt="MerryMi Blade 30K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="MerryMi Blade 30K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">30000 Buchów</p>
-                            <h1 class="product-title">MerryMi Blade 30K</h1>
+                            <h2 class="product-title">MerryMi Blade 30K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
-                            <a href="https://www.dbucha.com/products/merrymi-blade-30k-buchow" class="btn btn-cta">Kup
+                            <a href="https://www.dbucha.com/products/merrymi-blade-30k-buchow" class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup
                                 teraz</a>
                         </div>
                     </div>
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/Al-Fakher-Crown-Bar-HyperMax-E-papieros-jednorazówki-15K-15000-buchów.png"
-                                alt="Al Fakher Hypermax 15K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="Al Fakher Hypermax 15K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">15000 Buchów</p>
-                            <h1 class="product-title">Al Fakher Hypermax 15K</h1>
+                            <h2 class="product-title">Al Fakher Hypermax 15K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
                             <a href="https://www.dbucha.com/products/al-fakher-hypermax-15k-buchow"
-                                class="btn btn-cta">Kup teraz</a>
+                                class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup teraz</a>
                         </div>
                     </div>
                     <!-- Product 2: Fumot Leopard 40K -->
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/Fumot_Leopard_40K_Polska_Jednorazówki_E_papieros_Black_Dragon_Ice.png"
-                                alt="Fumot Leopard 40K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="Fumot Leopard 40K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">40000 Buchów</p>
-                            <h1 class="product-title">Fumot Leopard 40K</h1>
+                            <h2 class="product-title">Fumot Leopard 40K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
-                            <a href="https://www.dbucha.com/products/fumot-leopard-40k-buchow" class="btn btn-cta">Kup
+                            <a href="https://www.dbucha.com/products/fumot-leopard-40k-buchow" class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup
                                 teraz</a>
                         </div>
                     </div>
@@ -630,26 +537,26 @@
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/Fumot-Tornado-15K-Polska-Jednorazówki-E papieros-Grape Ice-15000 Buchów.png"
-                                alt="Fumot Tornado 15K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="Fumot Tornado 15K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">15000 Buchów</p>
-                            <h1 class="product-title">Fumot Tornado 15K</h1>
+                            <h2 class="product-title">Fumot Tornado 15K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
-                            <a href="https://www.dbucha.com/products/fumot-tornado-15k-buchow" class="btn btn-cta">Kup
+                            <a href="https://www.dbucha.com/products/fumot-tornado-15k-buchow" class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup
                                 teraz</a>
                         </div>
                     </div>
                     <!-- Product 4: Blur 30K -->
                     <div class="product-card slider-card">
                         <div class="product-image">
-                            <img src="images/product/Blur-30000-E-papieros-jednorazówki-30K-buchów.png" alt="Blur 30K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                            <img src="images/product/Blur-30000-E-papieros-jednorazówki-30K-buchów.png" alt="Blur 30K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">30000 Buchów</p>
-                            <h1 class="product-title">Blur 30K</h1>
+                            <h2 class="product-title">Blur 30K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
-                            <a href="https://www.dbucha.com/products/blur-30000-30k-buchow" class="btn btn-cta">Kup
+                            <a href="https://www.dbucha.com/products/blur-30000-30k-buchow" class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup
                                 teraz</a>
                         </div>
                     </div>
@@ -659,28 +566,28 @@
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/Hayati-Pro-Max-Vape-E-papieros-jednorazówki-4K-4000-buchów.png"
-                                alt="Hayati Pro Max 4K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="Hayati Pro Max 4K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">4000 Buchów</p>
-                            <h1 class="product-title">Hayati Pro Max 4K</h1>
+                            <h2 class="product-title">Hayati Pro Max 4K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
                             <a href="https://www.dbucha.com/products/hayati-pro-max-4k-4000-buchow"
-                                class="btn btn-cta">Kup teraz</a>
+                                class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup teraz</a>
                         </div>
                     </div>
                     <!-- Product 7: Ghost Smart Vape 40K -->
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/Ghost-Smart-Vape-E-papieros-jednorazówki-40K-40000-buchów.png"
-                                alt="Ghost Smart Vape 40K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="Ghost Smart Vape 40K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">40000 Buchów</p>
-                            <h1 class="product-title">Ghost Smart Vape 40K</h1>
+                            <h2 class="product-title">Ghost Smart Vape 40K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
                             <a href="https://www.dbucha.com/products/ghost-smart-vape-40k-40000-buchow"
-                                class="btn btn-cta">Kup teraz</a>
+                                class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup teraz</a>
                         </div>
                     </div>
                     <!-- Product 8: MerryMi M-Mecha 16K -->
@@ -689,13 +596,13 @@
                     <div class="product-card slider-card">
                         <div class="product-image">
                             <img src="images/product/MerryMi-WiFlux-E-papieros-jednorazówki-24K-24000-buchów.png"
-                                alt="MerryMi WiFlux 24K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                                alt="MerryMi WiFlux 24K - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                         </div>
                         <div class="product-info">
                             <p class="puff-count">24000 Buchów</p>
-                            <h1 class="product-title">MerryMi WiFlux 24K</h1>
+                            <h2 class="product-title">MerryMi WiFlux 24K</h2>
                             <p class="product-type">jednorazówki e-papieros</p>
-                            <a href="https://www.dbucha.com/products/merrymi-wiflux-24k-buchow" class="btn btn-cta">Kup
+                            <a href="https://www.dbucha.com/products/merrymi-wiflux-24k-buchow" class="btn btn-cta" target="_blank" rel="noopener noreferrer">Kup
                                 teraz</a>
                         </div>
                     </div>
@@ -706,36 +613,36 @@
         <section class="section container">
             <h2>Popularne Marki</h2>
             <div class="brands-grid">
-                <a href="https://www.dbucha.com/collections/merrymi-jednorazowki" class="brand-item">
-                    <img src="images/logos/merryMi.avif" alt="MerryMi - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                <a href="https://www.dbucha.com/collections/merrymi-jednorazowki" class="brand-item" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logos/merryMi.avif" alt="MerryMi - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     <span>MerryMi</span>
                 </a>
-                <a href="https://www.dbucha.com/collections/jnr-jednorazowki" class="brand-item">
-                    <img src="images/logos/JNR.png" alt="JNR - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                <a href="https://www.dbucha.com/collections/jnr-jednorazowki" class="brand-item" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logos/JNR.png" alt="JNR - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     <span>JNR</span>
                 </a>
-                <a href="https://www.dbucha.com/collections/fumot-jednorazowki" class="brand-item">
-                    <img src="images/logos/Fumot.webp" alt="Fumot - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                <a href="https://www.dbucha.com/collections/fumot-jednorazowki" class="brand-item" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logos/Fumot.webp" alt="Fumot - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     <span>Fumot</span>
                 </a>
-                <a href="https://www.dbucha.com/collections/adalya-jednorazowki" class="brand-item">
-                    <img src="images/logos/Adalya.png" alt="Adalya - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                <a href="https://www.dbucha.com/collections/adalya-jednorazowki" class="brand-item" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logos/Adalya.png" alt="Adalya - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     <span>Adalya</span>
                 </a>
-                <a href="https://www.dbucha.com/collections/al-fakher-jednorazowki" class="brand-item">
-                    <img src="images/logos/AlFakher.png" alt="Al Fakher - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                <a href="https://www.dbucha.com/collections/al-fakher-jednorazowki" class="brand-item" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logos/AlFakher.png" alt="Al Fakher - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     <span>Al Fakher</span>
                 </a>
-                <a href="https://www.dbucha.com/collections/blur-jednorazowki" class="brand-item">
-                    <img src="images/logos/blur-big.avif" alt="Blur - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                <a href="https://www.dbucha.com/collections/blur-jednorazowki" class="brand-item" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logos/blur-big.avif" alt="Blur - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     <span>Blur</span>
                 </a>
-                <a href="https://www.dbucha.com/collections/ghost-jednorazowki" class="brand-item">
-                    <img src="images/logos/Ghost.avif" alt="Ghost - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                <a href="https://www.dbucha.com/collections/ghost-jednorazowki" class="brand-item" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logos/Ghost.avif" alt="Ghost - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     <span>Ghost</span>
                 </a>
-                <a href="https://www.dbucha.com/collections/vozol-jednorazowki" class="brand-item">
-                    <img src="images/logos/vozol.webp" alt="Vozol - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                <a href="https://www.dbucha.com/collections/vozol-jednorazowki" class="brand-item" target="_blank" rel="noopener noreferrer">
+                    <img src="images/logos/vozol.webp" alt="Vozol - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     <span>Vozol</span>
                 </a>
             </div>
@@ -746,7 +653,7 @@
         <section class="section container split-section">
                 <div class="split-content image-column">
                 <img src="images/product/Ghost-Salt-10ml-Polska-Sol-Nikotynowa-E-liquid-Black-Mamba.png"
-                    alt="Ghost Salts 10ml - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" style="max-height: 400px; margin: 0 auto;">
+                    alt="Ghost Salts 10ml - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" style="max-height: 400px; margin: 0 auto;" decoding="async" loading="lazy">
             </div>
             <div class="split-content text-column">
                 <h2 style="margin-bottom: 20px;">Specyfikacja Ghost Salts 10ml</h2>
@@ -759,7 +666,7 @@
                     <li><strong>Efekt:</strong> Hit delikatny, ale szybki i efektywny</li>
                 </ul>
                 <a href="https://www.dbucha.com/products/ghost-salts-10ml" class="btn btn-cta"
-                    style="width: auto; padding: 12px 40px;">KUP TERAZ</a>
+                    style="width: auto; padding: 12px 40px;" target="_blank" rel="noopener noreferrer">KUP TERAZ</a>
             </div>
         </section>
         <!-- Customer Reviews Section -->
@@ -904,14 +811,43 @@
             </div>
         </section>
 
+        <!-- FAQ Section -->
+        <section class="section container" id="faq">
+            <div class="seo-content-card">
+                <h2 class="seo-title">Najczęstsze pytania</h2>
+                <div class="seo-grid">
+                    <div class="seo-item">
+                        <h3>Czym jest ta strona?</h3>
+                        <p>VapesPrime - Najlepsze e-papierosy i jednorazówki to polska strona informacyjna prezentująca wybrane modele, kolekcje oraz linki prowadzące do DBUCHA.com.</p>
+                    </div>
+                    <div class="seo-item">
+                        <h3>Czy ta strona jest sklepem internetowym?</h3>
+                        <p>Nie. Ta strona nie ma własnego checkoutu. Przyciski i linki prowadzą do DBUCHA.com, gdzie można sprawdzić produkty.</p>
+                    </div>
+                    <div class="seo-item">
+                        <h3>Jakie modele lub kolekcje są prezentowane?</h3>
+                        <p>Na stronie widoczne są między innymi JNR Triple 110K, Jnr Falcon Bar 48K, Adalya AD-PRO360, MerryMi Panda X, MerryMi M-Mecha 16K, JNR Megabox Pro 50K, MerryMi Blade 30K, Al Fakher Hypermax 15K, Fumot Leopard 40K, Fumot Tornado 15K, Blur 30K, Hayati Pro Max 4K, Ghost Smart Vape 40K i MerryMi WiFlux 24K.</p>
+                    </div>
+                    <div class="seo-item">
+                        <h3>Gdzie można sprawdzić produkty?</h3>
+                        <p>Produkty można sprawdzić po kliknięciu przycisków i linków prowadzących do DBUCHA.com, w tym do widocznych kart produktów oraz kolekcji marek.</p>
+                    </div>
+                    <div class="seo-item">
+                        <h3>Dla kogo przeznaczone są treści na stronie?</h3>
+                        <p>Treści są przeznaczone wyłącznie dla osób pełnoletnich. Strona zawiera ostrzeżenie, że produkt zawiera nikotynę, a nikotyna jest substancją uzależniającą.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Footer / Store Location -->
 
         <footer class="main-footer">
             <div class="container footer-grid">
                 <!-- Column 1: Brand -->
                 <div class="footer-column brand-col">
-                    <a href="https://www.dbucha.com/" class="logo footer-logo">
-                        <img src="favicon-96x96.png" alt="VapesPrime footer logo - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep">
+                    <a href="https://www.dbucha.com/" class="logo footer-logo" target="_blank" rel="noopener noreferrer">
+                        <img src="favicon-96x96.png" alt="VapesPrime footer logo - czysty, najlepsze, najtańsze, Darmowa dostawa, Wyprzedaż, Nowości, Najlepsze ceny, Top kolekcje, Promocje, Tylko u nas, Popularne, buchów, jednorazówka, jednorazówki, e papieros, najlepsze jednorazówki, e papierosy jednorazowe, e papierosy sklep" decoding="async" loading="lazy">
                     </a>
                     <p class="footer-about">
                         Witamy w Prime Vapes Polska, wiodącym sklepie internetowym z e-papierosami od 2016 roku.
@@ -969,15 +905,15 @@
                 <div class="footer-column">
                     <h3>Linki do wapowania</h3>
                     <ul class="footer-links">
-                        <li><a href="https://www.dbucha.com/">Przewodniki po wapowaniu</a></li>
-                        <li><a href="https://www.dbucha.com/">Nowości i recenzje podów</a></li>
-                        <li><a href="https://www.dbucha.com/">Recenzje e-liquidów</a></li>
-                        <li><a href="https://www.dbucha.com/">Woreczki nikotynowe - nowości</a></li>
-                        <li><a href="https://www.dbucha.com/">Recenzje soli nikotynowych</a></li>
-                        <li><a href="https://www.dbucha.com/">Recenzje zestawów pod</a></li>
-                        <li><a href="https://www.dbucha.com/">Media społecznościowe</a></li>
-                        <li><a href="https://www.dbucha.com/">Wszystkie kolekcje</a></li>
-                        <li><a href="https://www.dbucha.com/">Wszystkie produkty</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Przewodniki po wapowaniu</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Nowości i recenzje podów</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Recenzje e-liquidów</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Woreczki nikotynowe - nowości</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Recenzje soli nikotynowych</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Recenzje zestawów pod</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Media społecznościowe</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Wszystkie kolekcje</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Wszystkie produkty</a></li>
                     </ul>
                 </div>
 
@@ -985,27 +921,19 @@
                 <div class="footer-column">
                     <h3>Informacje dla klienta</h3>
                     <ul class="footer-links">
-                        <li><a href="https://www.dbucha.com/">O nas</a></li>
-                        <li><a href="https://www.dbucha.com/">Kontakt</a></li>
-                        <li><a href="https://www.dbucha.com/">Odbiór osobisty</a></li>
-                        <li><a href="https://www.dbucha.com/">Centrum pomocy</a></li>
-                        <li><a href="https://www.dbucha.com/">Informacje o wysyłce</a></li>
-                        <li><a href="https://www.dbucha.com/">Zarządzanie kontem VIP</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">O nas</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Kontakt</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Odbiór osobisty</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Centrum pomocy</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Informacje o wysyłce</a></li>
+                        <li><a href="https://www.dbucha.com/" target="_blank" rel="noopener noreferrer">Zarządzanie kontem VIP</a></li>
                     </ul>
                 </div>
 
                 <!-- Column 5: Legal Links -->
                 <div class="footer-column">
                     <h3>Linki prawne</h3>
-                    <ul class="footer-links">
-                        <li><a href="https://www.dbucha.com/">Regulamin</a></li>
-                        <li><a href="https://www.dbucha.com/">Polityka zwrotów i anulowań</a></li>
-                        <li><a href="https://www.dbucha.com/">Polityka monitoringu</a></li>
-                        <li><a href="https://www.dbucha.com/">Weryfikacja wieku</a></li>
-                        <li><a href="https://www.dbucha.com/">Zastrzeżenie medyczne</a></li>
-                        <li><a href="https://www.dbucha.com/">Polityka prywatności</a></li>
-                        <li><a href="https://www.dbucha.com/">Mapa strony</a></li>
-                    </ul>
+                    <p class="footer-about">Dostawa, zwroty, regulamin i polityka prywatności są dostępne w DBUCHA.com.</p>
                 </div>
             </div>
 
